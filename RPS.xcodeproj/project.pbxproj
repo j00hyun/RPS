@@ -13,6 +13,8 @@
 		D7A96F6727D9CFBA00CD5737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A96F6527D9CFBA00CD5737 /* Main.storyboard */; };
 		D7A96F6927D9CFBE00CD5737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A96F6827D9CFBE00CD5737 /* Assets.xcassets */; };
 		D7A96F6C27D9CFBE00CD5737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A96F6A27D9CFBE00CD5737 /* LaunchScreen.storyboard */; };
+		D7A96F7427D9D01400CD5737 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A96F7327D9D01400CD5737 /* Sign.swift */; };
+		D7ABB83A27D9D3A400F1A787 /* GameState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7ABB83927D9D3A400F1A787 /* GameState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		D7A96F6827D9CFBE00CD5737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7A96F6B27D9CFBE00CD5737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7A96F6D27D9CFBE00CD5737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A96F7327D9D01400CD5737 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		D7ABB83927D9D3A400F1A787 /* GameState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				D7A96F6827D9CFBE00CD5737 /* Assets.xcassets */,
 				D7A96F6A27D9CFBE00CD5737 /* LaunchScreen.storyboard */,
 				D7A96F6D27D9CFBE00CD5737 /* Info.plist */,
+				D7A96F7327D9D01400CD5737 /* Sign.swift */,
+				D7ABB83927D9D3A400F1A787 /* GameState.swift */,
 			);
 			path = RPS;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				D7A96F6427D9CFBA00CD5737 /* ViewController.swift in Sources */,
 				D7A96F6027D9CFBA00CD5737 /* AppDelegate.swift in Sources */,
+				D7ABB83A27D9D3A400F1A787 /* GameState.swift in Sources */,
+				D7A96F7427D9D01400CD5737 /* Sign.swift in Sources */,
 				D7A96F6227D9CFBA00CD5737 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
